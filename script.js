@@ -57,7 +57,7 @@ class Calculator {
             this.firstNumber = -parseFloat(this.firstNumber);
         }else if(this.secondNumber!== ''){
             this.secondNumber = -parseFloat(this.secondNumber);
-        } 
+        }
     }
 
     limitToNineDigits(number) {
