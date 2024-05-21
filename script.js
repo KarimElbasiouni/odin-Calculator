@@ -52,6 +52,7 @@ class Calculator {
     }
 
     sign(){
+        if(this.firstNumber == '0') return;
         if(this.operator == undefined){
             this.firstNumber = -parseFloat(this.firstNumber);
         }else if(this.secondNumber!== ''){
